@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MobiKazi"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You submitted the following information:"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvDisplayData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8dp" />
+
+    <Button
+        android:id="@+id/btnGoToQuestionnaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Questionnaire"
+        android:layout_marginTop="32dp"/>
+</LinearLayout>

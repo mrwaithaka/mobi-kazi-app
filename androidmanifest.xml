@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://android.com">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MobiKazi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+        <!-- Screen 1: Login Activity Entry Target -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Screen 2: User Input Form Activity Layout -->
+        <activity android:name=".UserDetailsActivity" />
+        
+        <!-- Screen 3: User Details Summary Activity Layout -->
+        <activity android:name=".SummaryActivity" />
+        
+        <!-- Screen 4: Dynamic Questionnaire Evaluation Form Activity -->
+        <activity android:name=".QuestionnaireActivity" />
+        
+    </application>
+
+</manifest>
